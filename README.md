@@ -12,3 +12,7 @@
     yarn add next react react-dom
     yarn build
     yarn dev
+
+
+### 페이지
+    동적 라우팅 (http://localhost:3000/route)
