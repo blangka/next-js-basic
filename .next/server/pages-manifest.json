@@ -1,0 +1,10 @@
+{
+  "/": "pages/index.html",
+  "/route": "pages/route.html",
+  "/tomato": "pages/tomato.html",
+  "/vegetable/[name]": "pages/vegetable/[name].html",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
