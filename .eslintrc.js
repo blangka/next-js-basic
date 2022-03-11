@@ -1,31 +1,33 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es6": true
+    env: {
+        browser: true,
+        es6: true
     },
-    "extends": [
+    extends: [
         "airbnb"
     ],
     globals: {
         Atomics: "readonly",
         SharedArrayBuffer: "readonly",
     },
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true
         },
-        "ecmaVersion": "2018",
-        "sourceType": "module"
+        ecmaVersion: "2018",
+        sourceType: "module"
     },
-    "plugins": [
+    plugins: [
         "react"
     ],
     rules: {
         quotes: ["error", "double"], // 더블 쿼터 사용
         "no-unused-vars": "off", // 사용안한 변수 경고 중복
-        "indent" : "off", //줄맞춤 검사 안함
-        "react/jsx-indent" : "off", //줄맞춤 검사 안함
-        "react/function-component-definition" : "off",
+        "indent": "off", // 줄맞춤 검사 안함
+        "react/jsx-indent": "off", // 줄맞춤 검사 안함
+        "import/no-unresolved": "off",
+        "import/no-extraneous-dependencies": "off",
+        "react/function-component-definition": "off",
         "jsx-a11y/control-has-associated-label": "off", // 상호작용하는 엘리먼트에 label을 넣는다
         "react/no-array-index-key": "off", // key값으로 index를 사용할수 있다.
         "comma-dangle": "off", // 마지막에 , 을 넣어주지 않는다.

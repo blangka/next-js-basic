@@ -16,3 +16,6 @@
 
 ### 페이지
     동적 라우팅 (http://localhost:3000/route)
+    서버사이드 랜더링 (http://localhost:3000/ssr)
+    정적 랜더링 (http://localhost:3000/static)
+    정적 랜더링2 (http://localhost:3000/static/blangka)
